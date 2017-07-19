@@ -1,6 +1,6 @@
 # KotlinDemo
 关于kotlin学习过程中，使用到的一些基础控件，以及kotlin基本用法。
-### menus文件夹－>菜单栏
+### 菜单栏(menus文件夹)
 <img src="https://github.com/themores/KotlinDemo/blob/master/menus/0AA025E1C9FFFBD82559DADA462B197C.jpg" width="240" height="400"/>
 
 #### 底部菜单
