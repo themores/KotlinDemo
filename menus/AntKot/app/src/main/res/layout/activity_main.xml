@@ -14,31 +14,45 @@
         android:id="@+id/btn_click_bottom_tab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:text="底部菜单" />
 
     <Button
         android:id="@+id/btn_click_left_tab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_click_bottom_tab"
         android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/btn_click_bottom_tab"
         android:text="侧边菜单" />
 
     <Button
         android:id="@+id/btn_click_top_tab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_click_left_tab"
         android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/btn_click_left_tab"
         android:text="顶部菜单" />
 
     <Button
         android:id="@+id/btn_click_pull_tab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btn_click_top_tab"
         android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/btn_click_top_tab"
         android:text="下拉菜单" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_click_bottom_tab">
+
+        <Button
+            android:id="@+id/btn_click_rxkotlin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_toRightOf="@id/btn_click_top_tab"
+            android:text="RxKotlin" />
+
+    </LinearLayout>
 
 </RelativeLayout>

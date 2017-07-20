@@ -21,7 +21,8 @@
             android:label="@string/title_activity_left_menu"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".TopTabActivity" />
-        <activity android:name=".PullMenuActivity"></activity>
+        <activity android:name=".PullMenuActivity" />
+        <activity android:name=".mvp.view.RxKotlinActivity"></activity>
     </application>
 
 </manifest>
